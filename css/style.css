@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    
+}
+
+h1,h3,p{
+    margin: 0;
+}
+
+.one{
+    display:flex;
+    justify-content: center;
+}
+
+.two{
+    width: 500px;
+    display:flex;
+    justify-content: center;
+    margin: 29px auto 0;
+    gap: 13px;
+    align-items: flex-start;
+
+    
+    
+}
+
+.two > div{
+align-self: flex-start;
+}
+
+
+.three{
+    width: 500px;
+    display:flex;
+    justify-content: space-between;
+    margin: 29px auto 0; 
+    border-top: 1px solid #E9E9E9;
+    padding-top: 29px;
+    align-items: flex-start;
+
+}
+
+.three > div>div{
+    padding-top: 20px;
+}
+.three > div>div >p{
+    margin-bottom: 8px;
+}
